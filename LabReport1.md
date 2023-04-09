@@ -10,8 +10,10 @@ To do this, go to [this link](https://code.visualstudio.com/), download VScode f
 
 **Step 2. Open Terminal within VScode**
 
-In VScode bring your cursor all the way up so that the drop down menus show. Click "Terminal" then "New Terminal", which should look like:
+In VScode bring your cursor all the way up so that the drop down menus show. Click "Terminal" then "New Terminal",  and your VScode should look like this witht the Terminal at the bottom of the screen:
 
-
+![Image](terminal.png)
 
 **Step 3. Log Into your ieng account**
+
+For this, you'll need your course specific username and password. To get your username log into [here](https://sdacs.ucsd.edu/~icc/index.php) with your regular tritonlink username and PID. It should look like this:
