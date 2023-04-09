@@ -14,6 +14,8 @@ In VScode bring your cursor all the way up so that the drop down menus show. Cli
 
 ![Image](terminal.png)
 
-**Step 3. Log Into your ieng account**
+**Step 3. Get your course-specific username and set your password for it.
 
-For this, you'll need your course specific username and password. To get your username log into [here](https://sdacs.ucsd.edu/~icc/index.php) with your regular tritonlink username and PID. It should look like this:
+To get your username log into [here](https://sdacs.ucsd.edu/~icc/index.php) with your regular tritonlink username and PID. It should look like this:
+
+![Image](sdcas.png)
