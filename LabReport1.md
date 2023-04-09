@@ -5,9 +5,13 @@
 
 To do this, go to [this link](https://code.visualstudio.com/), download VScode for whichever operating system you're using, and follow their directions for installation (for this example we'll be using macOS). Once installed it open it and it should look like this:
 
-![Image](Screenshot 2023-04-09 at 1.17.25 PM.png)
+![Image](vscode.png)
 
 
 **Step 2. Open Terminal within VScode**
+
+In VScode bring your cursor all the way up so that the drop down menus show. Click "Terminal" then "New Terminal", which should look like:
+
+
 
 **Step 3. Log Into your ieng account**
