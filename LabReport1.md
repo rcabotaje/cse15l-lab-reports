@@ -37,7 +37,7 @@
 *Note: After resetting your password wait 15 mins for the password change to take effect.*
 
 ---
-**Step 4: Log Into Your "ieng6" Account**
+**Step 4: Remotely Connect Into Your "ieng6" Account**
 
 * Go back to VScode with the terminal open. Type inside the terminal `ssh course-specific-usename@ieng.ucsd.edu`, hit return on your keyboard, then it'll prompt you to enter the your password you just set:
 ![Image](7.png)
