@@ -63,3 +63,5 @@ ls -a
 ```
 
 Here are examples of commands that have been ran:
+
+![Image](9.png)
