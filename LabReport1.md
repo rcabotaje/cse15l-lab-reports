@@ -5,8 +5,7 @@
 
 To do this, go to [this link](https://code.visualstudio.com/), download VScode for whichever operating system you're using, and follow their directions for installation (for this example we'll be using macOS). Once installed it open it and it should look like this:
 
-![Image](vscode.png)
-
+![](vscode.png)
 
 **Step 2. Open Terminal within VScode**
 
@@ -23,17 +22,17 @@ To get your username log into [here](https://sdacs.ucsd.edu/~icc/index.php) with
 Under "Additional Accounts" you'll see your course-specific username(s). Click the course you're looking for (in this case cse15l).
 ![Image](1.png)
 
-Once clicked you'll see your username and "Global Password Change" Tool. Click it.
+Once clicked, you'll see your username and "Global Password Change" Tool. Click it.:
 ![Image](2.png)
 
-Then click "Proceed to the Password Change Tool"
+Then click "Proceed to the Password Change Tool":
 ![Image](3.png)
 
 Enter your course-specific username (in this case the cse15l*****):
 ![Image](4.png)
 
 
-Click I want to change my course-specific password:
+Click "I want to reset my course-specific account password".:
 ![Image](5.png)
 
 Change your password:
@@ -41,5 +40,26 @@ Change your password:
 
 **Step 5: Log Into Your "ieng6" Account**
 
-Go to back to VScode with the terminal open. Type inside the terminal `ssh course-specific-usename@ieng.ucsd.edu` and it'll prompt you to enter the your password you just set.
+Go to back to VScode with the terminal open. Type inside the terminal `ssh course-specific-usename@ieng.ucsd.edu`, hit return on your keyboard, then it'll prompt you to enter the your password you just set:
 
+![Image](7.png)
+
+Once logged in, your terminal should output this:
+![Image](8.png)
+
+**Step 6: Try out some Commands:**
+Now you should try out some commands to see how they work and what they lead to. 
+Some commands you can try are:
+
+```
+cd
+ls
+pwd
+mkdir
+cat
+cp
+ls -lat
+ls -a
+```
+
+Here are examples of commands that have been ran:
