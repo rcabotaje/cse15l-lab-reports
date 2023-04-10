@@ -9,7 +9,7 @@ To do this, go to [this link](https://code.visualstudio.com/), download VScode f
 
 **Step 2. Open Terminal within VScode**
 
-In VScode bring your cursor all the way up so that the drop down menus show. Click "Terminal" then "New Terminal",  and your VScode should look like this witht the Terminal at the bottom of the screen:
+In VScode bring your cursor all the way up so that the drop down menus show. Click "Terminal" then "New Terminal",  and your VScode should look like this with the Terminal at the bottom of the screen:
 
 ![Image](terminal.png)
 
@@ -22,7 +22,7 @@ To get your username log into [here](https://sdacs.ucsd.edu/~icc/index.php) with
 Under "Additional Accounts" you'll see your course-specific username(s). Click the course you're looking for (in this case cse15l).
 ![Image](1.png)
 
-Once clicked, you'll see your username and "Global Password Change" Tool. Click it.:
+Once clicked, you'll see your username under it click "Global Password Change Tool":
 ![Image](2.png)
 
 Then click "Proceed to the Password Change Tool":
@@ -32,11 +32,13 @@ Enter your course-specific username (in this case the cse15l*****):
 ![Image](4.png)
 
 
-Click "I want to reset my course-specific account password".:
+Click "I want to reset my course-specific account password":
 ![Image](5.png)
 
 Change your password:
 ![Image](6.png)
+After resetting your password wait 15 mins for the password change to take effect.
+
 
 **Step 5: Log Into Your "ieng6" Account**
 
