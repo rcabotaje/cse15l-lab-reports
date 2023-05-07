@@ -11,11 +11,16 @@ class Handler implements URLHandler {
     public String handleRequest(URI url) {
         if(url.getPath().equals("/add-message")){
             String[] parameters = url.getQuery().split("=");
-            bruh+= parameters[1]+ "\n";
-            return bruh;
+            if(!parameters[0].equals("s")){
+                return "Dont forget the \'s\' :) ";
+            }
+            else{
+                bruh+= parameters[1]+ "\n";
+                return bruh;
+            }
         }
         else{
-            return "404 not found";
+            return bruh;
         }
     }
 }
@@ -37,13 +42,13 @@ public class StringServer {
 ![](localWebsite.png)
 * The methods called from the code is the *handleRequest* method, it is called when we to add a message to the server.
 * A relevant argument in the *handleRequest* if we want to add a message it checks the URL for the "/add-message" query.
-* The value from String s changes. Before it I added "bruh moment" it was "Hello \nHow are you\n" then after the method *handleRequest* gets called it changes to "Hello\nHow are you\nbruh moment".
+* The value from String s changes. Before it I added "bruh moment" it was "Hello \nHow are you\n" then after the method *handleRequest* gets called it changes to "Hello\nHow are you\nbruh moment". This happens because in the *Handle* class the *handleRequest* method is called, and in that method it checks the server's URL, it checks its path to see if it contains "add-message" to add a message, then it looks at the query, and splits it at the "=" of the query into an array of with 2 values, with the first value to check if it is 's' to make sure its going to add the message and the second value of the message to be added. However if the path "add-message" is not provided, whatever is stored in the "bruh" string is returned and showed. Also if the query doesn't have "q" what output on the server is a reminder to include the 's'.
 
 **2nd `/add-message` ScreenShot**
 ![](localWebsite2.png)
 * The methods called from the code is the *handleRequest* method, it is called when we to add a message to the server.
 * Just like the previous screenshot the relevant argument in the *handleRequest* if we want to add a message it checks the URL for the "/add-message" query.
-* The value from String s changes. Before it I added "123" it was "Hello\nHow are you\nbruh moment\n" then after the method *handleRequest* gets called it changes to "Hello\nHow are you\nbruh moment\n123\n".
+* The value from String s changes. Before it I added "123" it was "Hello\nHow are you\nbruh moment\n" then after the method *handleRequest* gets called it changes to "Hello\nHow are you\nbruh moment\n123\n". This happens because in the *Handle* class the *handleRequest* method is called, and in that method it checks the server's URL, it checks its path to see if it contains "add-message" to add a message, then it looks at the query, and splits it at the "=" of the query into an array of with 2 values, with the first value to check if it is 's' to make sure its going to add the message and the second value of the message to be added. However if the path "add-message" is not provided, whatever is stored in the "bruh" string is returned and showed. Also if the query doesn't have "q" what output on the server is a reminder to include the 's'.
 
 ---
 # Part 2
