@@ -2,6 +2,9 @@
 
 **grep-i** 
 
+I found this command-line option using ChatGPT by typing "grep command-line options." It gave me a list of them I I chose this one because it looked
+interesting.
+
 The `grep -i` inline command is useful beacuse it will help you look for a specific word in a file. It works by after the `grep -i` is typed in the quotaion
 marks is the word or phrase you're trying to find, and after that you can type the path to the file, or the file itself if you are in it's working
 directory. It looks in each line of the file you're searching through and if it contians what's in the quotation mark it outputs all the lines that
@@ -27,6 +30,9 @@ rommelcabotaje@Rommels-MBP biomed % grep -i "chronic" 1468-6708-3-7.txt
 ---
 
 **grep -v**
+
+I found this command-line option using ChatGPT by typing "grep command-line options." It gave me a list of them I I chose this one because it looked
+interesting.
 
 The `grep -v` commad is useful because it lets you find lines in a file that doesn't contain a specific word/phrase. It works by after typing `grep -v`
 whatever is in the quotation marks you put after is what to not include in its output, so when it searches thorugh the file you give, if a line in the file
@@ -89,6 +95,9 @@ rommelcabotaje@Rommels-MBP technical % grep -v "e" /Users/rommelcabotaje/Documen
 
 **grep -n**
 
+II found this command-line option using ChatGPT by typing "grep command-line options." It gave me a list of them I I chose this one because it looked
+interesting.
+
 The `grep -n` command is useful because not only does it print the lines with the word/phrase you're trying to find, it also outputs the line it's on.
 It works just the same as `grep -i` , just instead of an `-i` it uses `-n`. After typing `grep -n` you type in quotation marks what you're trying to find, 
 then the path or file you want to search in. It looks inside the path/file and outputs the lines that has whatevers in the quotation marks, and its line
@@ -129,6 +138,9 @@ rommelcabotaje@Rommels-MBP biomed % grep -n "20" /Users/rommelcabotaje/Documents
 ```
 --
 **grep -l**
+
+I found this command-line option using ChatGPT by typing "grep command-line options." It gave me a list of them I I chose this one because it looked
+interesting.
 
 The `grep -l` command is useful because it allows you to search multiple files to see if it contains a specific word/ phrase and outputs the files
 that contian what you're looking for. It works by after typing `grep -l` you type in quotation marks what phrase/ word you're trying to find, then
