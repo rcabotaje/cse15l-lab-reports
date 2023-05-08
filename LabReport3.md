@@ -12,7 +12,7 @@ contains whats in the quotation marks.
 
 Ex1:
 ```
-rommelcabotaje@Rommels-MBP stringsearch-data % grep -i "long" /Users/rommelcabotaje/Documents/GitHub/stringsearch-data/technical/biomed/1468-6708-3-3.txt
+% grep -i "long" /Users/rommelcabotaje/Documents/GitHub/stringsearch-data/technical/biomed/1468-6708-3-3.txt
         Without longer clinical follow up, it is not possible to
         coronary syndrome: First, the long-term safety and
         promote greater long-term utilization of these agents [ 18
@@ -132,7 +132,7 @@ rommelcabotaje@Rommels-MBP biomed % grep -n "1" 1468-6708-3-3.txt
 Ex2:
 
 ```
-rommelcabotaje@Rommels-MBP biomed % grep -n "20" /Users/rommelcabotaje/Documents/GitHub/stringsearch-data/technical/biomed/1468-6708-3-3.txt
+% grep -n "20" /Users/rommelcabotaje/Documents/GitHub/stringsearch-data/technical/biomed/1468-6708-3-3.txt
 209:        19 20 21 ] . Finally, although lipid levels may be
 265:        In 2002, many would consider it unethical to withhold
 ```
