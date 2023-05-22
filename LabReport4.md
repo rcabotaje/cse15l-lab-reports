@@ -38,6 +38,6 @@ Lab Report 4
 <img width="724" alt="Screenshot 2023-05-21 at 10 22 40 PM" src="https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/523d6a31-4c06-4956-af7f-adca50aa7196">
  
  
- 6. `git <space> add ListE<tab>.<tab><enter>``git <space>' 'commit <space>' '-m <space> "thing has been commited<enter>"' 'git <space> push <Ctrl+V><Enter>` Used git add to add the file, used git commit to commit it to the repository, then used git push to push it to my GitHub account's public repository. I used <tab> after typing `ListE` to autofill the filename to `ListExamples` and after `.` to autofill the filetype to `.java`. Also used `<enter>` to run the command and `<space>` to separate the commands from the arguments.
+ 6. `git <space> add ListE<tab>.<tab><enter>``git <space>' 'commit <space>' '-m <space> "thing has been commited<enter>"' 'git <space> push <Ctrl+V><Enter>` Used git add to add the file, used git commit to commit it to the repository, then used git push to push it to my GitHub account's public repository. I used <tab> after typing `ListE` to autofill the filename to `ListExamples` and after `.` to autofill the filetype to `.java`. Also used `<enter>` to run the command and `<space>` to separate the commands from the arguments. Used `<Ctrl+V>` as the repository I wanted to push it to `(git@github.com:rcabotaje/lab7.git)`  was on my clipboard.
 
   
