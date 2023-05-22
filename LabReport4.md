@@ -1,7 +1,9 @@
 <img width="776" alt="Screenshot 2023-05-21 at 8 41 29 PM" src="https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/35f055d8-5c3c-4d6d-bc88-996df7ae6745">
 
 1. First I typed `ssh cs15sp23hl@ieng6.ucsd.edu`, `<enter>`, typed my password, <enter>
+ 
 ---
+ 
  <img width="572" alt="Screenshot 2023-05-21 at 8 45 38 PM" src="https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/25435cee-bd20-4a12-a04d-1e942f3b2bb8">
 
   
