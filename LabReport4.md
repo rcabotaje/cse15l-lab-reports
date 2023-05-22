@@ -17,22 +17,22 @@ Lab Report 4
 3. `cd <space> lab7 <enter>`, `bash <space> test.sh<enter>` I used the `cd` command to cd into the lab7 directory, then used the `bash` command to run the commands inside the `test.sh` file and to see the tests fail. Also used `<enter>` to run the command and `<space>` to separate the commands from the arguments.
 ---
   
-  <img width="620" alt="Screenshot 2023-05-21 at 9 10 00 PM" src="https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/23740537-40d3-4316-b68d-1a4344edd2b6">
+<img width="620" alt="Screenshot 2023-05-21 at 9 10 00 PM" src="https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/23740537-40d3-4316-b68d-1a4344edd2b6">
 
-  4.`vim <space> ListExamples.java <enter> /index1 <enter> nnnnnnnnn lllll r2 :wq` Used the `vim` command to go into the `ListExamples.java` file used the `/search` command to find the `index1` to switch, then used the `n` vim command to look at each instance of `index1` and find the right one to switch. Then used the `l` to put the cursor over the number to switch and used `r` command to replace the `1` character to `2` and finally used `:wq` to exit and save the file. Also used `<enter>` to run the command and `<space>` to separate the commands from the arguments.
+4.`vim <space> ListExamples.java <enter> /index1 <enter> nnnnnnnnn lllll r2 :wq` Used the `vim` command to go into the `ListExamples.java` file used the `/search` command to find the `index1` to switch, then used the `n` vim command to look at each instance of `index1` and find the right one to switch. Then used the `l` to put the cursor over the number to switch and used `r` command to replace the `1` character to `2` and finally used `:wq` to exit and save the file. Also used `<enter>` to run the command and `<space>` to separate the commands from the arguments.
   
   ---
   
-  <img width="332" alt="Screenshot 2023-05-21 at 9 09 06 PM" src="https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/6b2cbba6-4df9-4956-a488-a0c7898b1f34">
+<img width="332" alt="Screenshot 2023-05-21 at 9 09 06 PM" src="https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/6b2cbba6-4df9-4956-a488-a0c7898b1f34">
 
-  5. `bash <space> test.sh` Used the `bash` command to run the commands inside the `test.sh` file and to see the tests worked after the change made in the ListExamples.java file.
+5. `bash <space> test.sh` Used the `bash` command to run the commands inside the `test.sh` file and to see the tests worked after the change made in the ListExamples.java file.
   
  ---
  
-  <img width="422" alt="Screenshot 2023-05-21 at 11 53 06 PM" src="https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/fb2fc806-a3e5-4094-8dd2-9a608bc252a1">
+<img width="422" alt="Screenshot 2023-05-21 at 11 53 06 PM" src="https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/fb2fc806-a3e5-4094-8dd2-9a608bc252a1">
   
   
-  <img width="527" alt="Screenshot 2023-05-21 at 9 24 16 PM" src="https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/e8e009bc-5bcd-4e7b-8322-abb60a51ed54">
+<img width="527" alt="Screenshot 2023-05-21 at 9 24 16 PM" src="https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/e8e009bc-5bcd-4e7b-8322-abb60a51ed54">
   
   
 <img width="724" alt="Screenshot 2023-05-21 at 10 22 40 PM" src="https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/523d6a31-4c06-4956-af7f-adca50aa7196">
