@@ -2,13 +2,12 @@
 
 **grep-i** 
 
-I found this command-line option using ChatGPT by typing "grep command-line options." It gave me a list of them I I chose this one because it looked
-interesting.
+I found this command-line option using ChatGPT by typing "grep command-line options." It gave me a list of them and I chose this one because it looked
+interesting. I also changed the output by explaining it's use in my own words. Like it said "Performs a case-insensitive search" and in my explaination I explained it like if you don't know what "case-insensetive" means. 
+![image](https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/23195965-e775-45b7-84e5-08d5d307866f)
 
-The `grep -i` inline command is useful beacuse it will help you look for a specific word in a file. It works by after the `grep -i` is typed in the quotaion
-marks is the word or phrase you're trying to find, and after that you can type the path to the file, or the file itself if you are in it's working
-directory. It looks in each line of the file you're searching through and if it contians what's in the quotation mark it outputs all the lines that
-contains whats in the quotation marks.
+
+The `grep -i` inline command is useful beacuse it will help you look for a specific word in a file regardless of character types. It works by after the `grep -i` is typed in the quotaion marks is the word or phrase you're trying to find and it doesn't even matter how you typed the phrase/words you're trying to find. For example in my Ex2, I searched for the word "chronic" in all lowercase, and it returned one line where "chronic" had a Uppercase "C.", and after that you can type the path to the file, or the file itself if you are in it's working directory. It looks in each line of the file you're searching through and if it contians what's in the quotation mark it outputs all the lines that contains whats in the quotation marks. Its main signfigance is that it works a lot like the "ctrl+f" command on keyboard and it helps you find words in texts. It's diffrent from the regular "grep" command because using regular "grep" is case sensivite, so if i were trying to find "chronic" it would only return lines with all lowercase letters in "chronic".
 
 Ex1:
 ```
@@ -31,13 +30,12 @@ rommelcabotaje@Rommels-MBP biomed % grep -i "chronic" 1468-6708-3-7.txt
 
 **grep -v**
 
-I found this command-line option using ChatGPT by typing "grep command-line options." It gave me a list of them I I chose this one because it looked
-interesting.
+I found this command-line option using ChatGPT by typing "grep command-line options." It gave me a list of them and I chose this one because it looked
+interesting. I also changed the output by explaining it's use in my own words. The output says "Inverts the search and shows the lines that do not contain the search pattern" but for my explaination, I simplified the words used to explain what it does.
+![image](https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/edeeca9c-27bc-48f1-bf41-622c8201bcd7)
 
 The `grep -v` commad is useful because it lets you find lines in a file that doesn't contain a specific word/phrase. It works by after typing `grep -v`
-whatever is in the quotation marks you put after is what to not include in its output, so when it searches thorugh the file you give, if a line in the file
-contains whatever is in the quotation mark, its not outputted when the command is called. After the quotation marks you enter the path or file you want to 
-search in.
+whatever is in the quotation marks you put after is what to not include in its output, so when it searches thorugh the file you give, if a line in the file contains whatever is in the quotation mark, its not outputted when the command is called. After the quotation marks you enter the path or file you want to search in. This could be helpful for example, because if you look at the song "Get Lucky" by Daft Punk, most of the lines contain the phrase "We're up all night to get", using this command we could find the very few lines of lyrics in that mass sea of the phrase "We're up all night to get"
 
 Ex1:
 ```
@@ -95,13 +93,12 @@ rommelcabotaje@Rommels-MBP technical % grep -v "e" /Users/rommelcabotaje/Documen
 
 **grep -n**
 
-II found this command-line option using ChatGPT by typing "grep command-line options." It gave me a list of them I I chose this one because it looked
-interesting.
+I found this command-line option using ChatGPT by typing "grep command-line options." It gave me a list of them and I chose this one because it looked
+interesting. I also changed the output by explaining it's use in my own words. The output said "Shows the line numbers where the search pattern appears in the file", but i changed it to include its usefulness too.
+![image](https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/53250f85-9da3-464c-bde1-e083a390491a)
 
 The `grep -n` command is useful because not only does it print the lines with the word/phrase you're trying to find, it also outputs the line it's on.
-It works just the same as `grep -i` , just instead of an `-i` it uses `-n`. After typing `grep -n` you type in quotation marks what you're trying to find, 
-then the path or file you want to search in. It looks inside the path/file and outputs the lines that has whatevers in the quotation marks, and its line
-number.
+It works just the same as `grep -i` , just instead of an `-i` it uses `-n`. After typing `grep -n` you type in quotation marks what you're trying to find, then the path or file you want to search in. It looks inside the path/file and outputs the lines that has whatevers in the quotation marks, and its line number. Futhermore this command could be useful because if you're trying to find a word or phrase within a text file, you'll know what line you need to go to, to find the phrase and change it, like if in an essay, you cited the author, when you wanted to cite the title of the text, you could use the grep -n command to find the lines which have the author's name and go to said lines to change them to the title when citing.
 
 Ex1:
 ```
@@ -139,8 +136,9 @@ Ex2:
 --
 **grep -l**
 
-I found this command-line option using ChatGPT by typing "grep command-line options." It gave me a list of them I I chose this one because it looked
-interesting.
+I found this command-line option using ChatGPT by typing "grep command-line options." It gave me a list of them and I chose this one because it looked
+interesting. I also changed the output by explaining it's use in my own words. The original output said, " Lists only the names of the files that contain the search pattern" but for my explination, I also added that you could see a path to the file when entering a path to a file insread of just a file.
+![image](https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/06db6a53-b409-4feb-b90e-c8785e99a641)
 
 The `grep -l` command is useful because it allows you to search multiple files to see if it contains a specific word/ phrase and outputs the files
 that contian what you're looking for. It works by after typing `grep -l` you type in quotation marks what phrase/ word you're trying to find, then
