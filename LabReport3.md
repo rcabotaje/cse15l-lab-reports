@@ -95,6 +95,7 @@ rommelcabotaje@Rommels-MBP technical % grep -v "e" /Users/rommelcabotaje/Documen
 
 I found this command-line option using ChatGPT by typing "grep command-line options." It gave me a list of them and I chose this one because it looked
 interesting. I also changed the output by explaining it's use in my own words. The output said "Shows the line numbers where the search pattern appears in the file", but i changed it to include its usefulness too.
+
 ![image](https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/53250f85-9da3-464c-bde1-e083a390491a)
 
 The `grep -n` command is useful because not only does it print the lines with the word/phrase you're trying to find, it also outputs the line it's on.
