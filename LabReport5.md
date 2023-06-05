@@ -46,6 +46,7 @@ Command trigger bug: `bash grade.sh`
 
 Description to fix the bug: 
 On line 30 remove the "../" before the "grading-area" this will set you into the right directory to compile and run the tests correctly.
+
 <img width="745" alt="Screenshot 2023-06-04 at 10 01 49 PM" src="https://github.com/rcabotaje/cse15l-lab-reports/assets/130100627/ddcc9f6f-7d4d-4aec-afe2-22c0a859cc0a">
 
 # Part 2
